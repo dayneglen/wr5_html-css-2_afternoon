@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;  
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    height:80px;
+    background-color: #252525;
+    flex-wrap: wrap;
+
+}
+
+.btn {
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn-transition:hover {
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+}
+
+.devmtn-img {
+    height: 40px;
+    margin: 20px 30px;
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 5px;
+    width: 70%;
+}
+
+.nav-flex button {
+    background-color: #2AABE2;
+    height: 40px;
+    width: 70px;
+    margin: 14px;
+}
+
+.nav-flex button:hover {
+    background-color: #fff;
+    color: #2AABE2;
+}
+
+.header-links {
+    color: #fff;
+    text-decoration: none;
+    margin: 14px;
+}
+
+.header-links:hover {
+    border-bottom: 2px solid  #2AABE2;
+    padding-bottom: 10px;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+    
+}
+
+.welcome-container {
+    background-image: url("./images/safar-safarov-MSN8TFhJ0is-unsplash.jpg");
+    background-size: cover;
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.welcome-container h1 {
+    font-size: 3em;
+    margin: 30px;
+}
+
+.welcome-container h3 {
+    font-size: 1.5em;
+    margin: 30px;
+}
+
+
+.video-btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px auto;
+    background-color: transparent;
+    color: #2AABE2;
+    width: 300px;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.covid-section {
+    height: 80px;
+    background-color: #2AABE2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 20px;
+}
+
+.covid-section p {
+    width: 60%;
+    font-size: 0.9em;
+   
+}
+
+.covid-section p span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.contact-btn {
+    background-color: #FF991F;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-btn:hover {
+    background-color: #DE8E03;
+    transition: .3s;
+}
+
+.contact-btn img {
+    height: 25px;
+    width: 25px;
+    
+}
